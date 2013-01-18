@@ -1,0 +1,16 @@
+{
+   "name": "LoadBalancer",
+   "description": "A role for Load Balancer VMs",
+   "chef_type": "role",
+   "json_class": "Chef::Role",
+   "run_list": [
+   ],
+   "env_run_lists": {
+      "_default": [],
+       "dev": [
+         "role[Base]"
+       ],
+   },
+   "default_attributes": {
+   }
+}
