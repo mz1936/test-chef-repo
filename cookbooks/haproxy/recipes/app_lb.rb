@@ -17,6 +17,7 @@
 # limitations under the License.
 #
 
+#test comment to see if overwritten
 pool_members = search("node", "role:#{node['haproxy']['app_server_role']} AND chef_environment:#{node.chef_environment}") || []
 
 # load balancer may be in the pool
